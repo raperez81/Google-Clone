@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #202124;
+  ;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100vw;
+  height: 3rem;
+  padding-right: 3rem;
+}
+
+header nav {
+  height: 100%;
+  margin-top: 1rem;
+}
+
+header nav .nav__right__section {
+  height: 100%;
+  display: flex;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header nav .nav__right__section .header__links {
+  margin-left: 2rem;
+  color: #272727;
+  font-size: 1.1rem;
+}
+
+header nav .nav__right__section .header__links:hover {
+  text-decoration: underline;
+}
+
+header nav .nav__right__section .header__links .profile__pic {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+main {
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .search__container {
+  width: 50vw;
+  height: 3.5rem;
+  border-radius: 2rem;
+  border: #dfe1e5 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+main .search__container:hover {
+  border-color: transparent;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+
+main .search__container .search__icon {
+  margin: auto 1rem;
+  width: 1.5rem;
+  opacity: .3;
+}
+
+main .search__container .search__text {
+  outline: none;
+  border: 0;
+  height: 2rem;
+  flex-grow: 1;
+}
+
+main .search__container .mic__icon {
+  margin: auto 1rem;
+  width: 1.6rem;
+  cursor: pointer;
+}
+
+main .search__buttons {
+  margin-top: 2rem;
+}
+
+main .search__buttons button {
+  background-color: #f8f9fa;
+  padding: 1rem 2rem;
+  color: #3c4043;
+  font-size: 1.1rem;
+  border: 0;
+  margin: 0 .5rem;
+  border-radius: 5px;
+  border: transparent 1px solid;
+}
+
+main .search__buttons button:hover {
+  border-color: #dadce0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+main .search__buttons button:focus {
+  outline: none;
+  border: rgb(35, 129, 192) 1px solid;
+}
+
+
+footer {
+  background-color: #f2f2f2;
+  width: 100vw;
+  height: 3rem;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: #dadce0 1px solid;
+}
+
+.footer__links {
+  color: #70757a;
+  font-size: 1.1rem;
+}
+
+.footer__links:hover {
+  text-decoration: underline;
+}
+
+.footer__left {
+  margin-left: 3rem;
+}
+
+.footer__left__links {
+  margin-right: 2rem;
+}
+
+.footer__right {
+  margin-right: 3rem;
+}
+
+.footer__right__links {
+  margin-left: 2rem;
+}
+
