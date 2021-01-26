@@ -204,6 +204,11 @@ footer {
   header {
     padding-right: 1rem;
   }
+
+  main{
+    margin-top: 6rem;
+    justify-content: flex-start;
+  }
   main .search__container {
     width: 90vw;
   }
